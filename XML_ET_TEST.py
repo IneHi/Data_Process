@@ -19,7 +19,7 @@ if Requested_KML.status_code == requests.codes.ok:
     #Shits which works
     # for i in root.find(".//{" + namespaces.get("kml") + "}" + "/Document/Placemark[25]/ExtendedData/Data[1]/value"): #Require: {Namespaces}Tag
     # for i in root.findall("kml:Document", ns):
-    #find thriough xpath
+    #find element through xpath
     Watergate_Xpath_Dict = {
         "淡6,敦煌" : ".//kml:Document/kml:Placemark[25]/kml:ExtendedData/kml:Data[1]/kml:value", 
         "淡5-1,國順" : ".//kml:Document/kml:Placemark[10]/kml:ExtendedData/kml:Data[1]/kml:value", 
@@ -29,13 +29,10 @@ if Requested_KML.status_code == requests.codes.ok:
         "淡2,貴陽" :   ".//kml:Document/kml:Placemark[7]/kml:ExtendedData/kml:Data[1]/kml:value", 
         "淡1,桂林" :   ".//kml:Document/kml:Placemark[33]/kml:ExtendedData/kml:Data[1]/kml:value"
     }
-
-    for i in root.iter("{http://www.opengis.net/kml/2.2}.//kml:Document/kml:Placemark[25]/kml:ExtendedData/kml:Data[1]/kml:value"):
-        print(i.text)
-    else:
-        print("For loop done :)")
-    # for i in Watergate_Xpath_Dict.values:
-    #     for j in root.iter(i, ns):
-    #         print(j)
+    Watergate_Status_Dict = {}
+    for k, v in Watergate_Xpath_Dict.items():
+        for j in root.findall(v, ns):
+            Watergate_Status_Dict[k] = j.text
+    print(Watergate_Status_Dict.items())
 else:
     print("Error : " + str(Requested_KML.status_code))
