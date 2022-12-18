@@ -8,6 +8,7 @@ import wisepaasdatahubedgesdk.Common.Constants as constant
 from wisepaasdatahubedgesdk.Model.Edge import EdgeAgentOptions, MQTTOptions, DCCSOptions, EdgeData, EdgeTag, EdgeStatus, EdgeDeviceStatus, EdgeConfig, NodeConfig, DeviceConfig, AnalogTagConfig, DiscreteTagConfig, TextTagConfig
 from wisepaasdatahubedgesdk.Common.Utils import RepeatedTimer
 import requests
+import Watergate_KML_Transcribe
 
 global _edgeAgent
 
@@ -23,28 +24,28 @@ def __sendData():
 
 def __generateData():
     edgeData = EdgeData()
-    
-    deviceId = 'nJLkBcnjmikE' #需對應剛剛取名的Device
-    tagName = 'Tag1' #需對應剛剛取名的Tag
-    tag = EdgeTag(deviceId, tagName, 0)
+    Watergate_Status_Dict = Get_Watergate_Status()
+    deviceId = 'grtpau9R0X8A' #需對應剛剛取名的Device
+    tagName = 'Gate_1' #需對應剛剛取名的Tag
+    tag = EdgeTag(deviceId, tagName, Watergate_Status_Dict.get("淡1,桂林"))
     edgeData.tagList.append(tag)
-    tagName = 'Tag2' #需對應剛剛取名的Tag
-    tag = EdgeTag(deviceId, tagName, 1)
+    tagName = 'Gate_2' #需對應剛剛取名的Tag
+    tag = EdgeTag(deviceId, tagName, Watergate_Status_Dict.get("淡2,貴陽"))
     edgeData.tagList.append(tag)
-    tagName = 'Tag3' #需對應剛剛取名的Tag
-    tag = EdgeTag(deviceId, tagName, 0)
+    tagName = 'Gate_3' #需對應剛剛取名的Tag
+    tag = EdgeTag(deviceId, tagName, Watergate_Status_Dict.get("淡3,延平"))
     edgeData.tagList.append(tag)
-    tagName = 'Tag4' #需對應剛剛取名的Tag
-    tag = EdgeTag(deviceId, tagName, 1)
+    tagName = 'Gate_4' #需對應剛剛取名的Tag
+    tag = EdgeTag(deviceId, tagName, Watergate_Status_Dict.get("淡4,玉泉"))
     edgeData.tagList.append(tag)
-    tagName = 'Tag5' #需對應剛剛取名的Tag
-    tag = EdgeTag(deviceId, tagName, 0)
+    tagName = 'Gate_5' #需對應剛剛取名的Tag
+    tag = EdgeTag(deviceId, tagName, Watergate_Status_Dict.get("淡5,大稻埕"))
     edgeData.tagList.append(tag)
-    tagName = 'Tag6' #需對應剛剛取名的Tag
-    tag = EdgeTag(deviceId, tagName, 1)
+    tagName = 'Gate_6' #需對應剛剛取名的Tag
+    tag = EdgeTag(deviceId, tagName, Watergate_Status_Dict.get("淡5-1,國順"))
     edgeData.tagList.append(tag)
-    tagName = 'Tag7' #需對應剛剛取名的Tag
-    tag = EdgeTag(deviceId, tagName, 0)
+    tagName = 'Gate_7' #需對應剛剛取名的Tag
+    tag = EdgeTag(deviceId, tagName, Watergate_Status_Dict.get("淡6,敦煌"))
     edgeData.tagList.append(tag)
     edgeData.timestamp = datetime.datetime.now()
     return edgeData
