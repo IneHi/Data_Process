@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>疏散門</name>
+    <Style id="icon-1305-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1305-poi-railway.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>新1,馬場</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 15:52<br>開啟時間: 2022/10/17 09:28<br>Descriptio: 青年路底(馬場町公園)<br>field_3: 馬場町河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 15:52</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 09:28</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>青年路底(馬場町公園)</value>
+        </Data>
+        <Data name="field_3">
+          <value>馬場町河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.50442,25.019745,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>新1-1,富民</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:01<br>開啟時間: 2022/10/17 09:22<br>Descriptio: 萬華區富民街底<br>field_3: 華中河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:01</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 09:22</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>萬華區富民街底</value>
+        </Data>
+        <Data name="field_3">
+          <value>華中河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.500419,25.017492,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>新3,華中一</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:40<br>開啟時間: 2022/10/17 09:15<br>Descriptio: 萬華區華中橋橋下<br>field_3: 華中河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:40</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 09:15</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>萬華區華中橋橋下</value>
+        </Data>
+        <Data name="field_3">
+          <value>華中河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.495779,25.0159217,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>新4,華江</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 11:32<br>開啟時間: 2022/10/17 09:03<br>Descriptio: 萬華區長順街底<br>field_3: 雙園河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 11:32</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 09:03</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>萬華區長順街底</value>
+        </Data>
+        <Data name="field_3">
+          <value>雙園河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.488473,25.0323615,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>淡2,貴陽</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 11:11<br>開啟時間: 2022/10/19 15:55<br>Descriptio: 萬華區長沙街底<br>field_3: 龍山河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 11:11</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/19 15:55</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>萬華區長沙街底</value>
+        </Data>
+        <Data name="field_3">
+          <value>龍山河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.499237,25.0415305,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>淡3,延平</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 14:14<br>開啟時間: 2022/10/17 14:52<br>Descriptio: 大同區鄭州路底<br>field_3: 延平河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 14:14</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 14:52</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>大同區鄭州路底</value>
+        </Data>
+        <Data name="field_3">
+          <value>延平河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.506488,25.050877,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>淡5,大稻埕</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 11:32<br>開啟時間: 2022/10/17 15:00<br>Descriptio: 大同區民生西路底<br>field_3: 延平河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 11:32</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 15:00</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>大同區民生西路底</value>
+        </Data>
+        <Data name="field_3">
+          <value>延平河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.508098,25.056843,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>淡5-1,國順</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 11:27<br><br>開啟時間: 2022/10/19 15:15<br>Descriptio: 大同區民族西路底<br>field_3: 延平河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 11:27
+</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/19 15:15</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>大同區民族西路底</value>
+        </Data>
+        <Data name="field_3">
+          <value>延平河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.509024,25.068878,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基1,經貿</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:43<br>開啟時間: 2022/10/20 14:13<br>Descriptio: 南港區內溝、大坑溪與基隆河匯流口附近，環東大道下<br>field_3: 南湖左岸河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:43</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/20 14:13</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>南港區內溝、大坑溪與基隆河匯流口附近，環東大道下</value>
+        </Data>
+        <Data name="field_3">
+          <value>南湖左岸河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.620686,25.060223,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基2,成功</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:32<br>開啟時間: 2022/10/20 14:24<br>Descriptio: 南港區基隆河左岸成功橋上游環東快速道路橋下<br>field_3: 成美左岸河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:32</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/20 14:24</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>南港區基隆河左岸成功橋上游環東快速道路橋下</value>
+        </Data>
+        <Data name="field_3">
+          <value>成美左岸河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.593872,25.059046,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基3,南港</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:27<br>開啟時間: 2022/10/20 14:27<br>Descriptio: 南港區南港路3段106巷底<br>field_3: 成美左岸河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:27</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/20 14:27</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>南港區南港路3段106巷底</value>
+        </Data>
+        <Data name="field_3">
+          <value>成美左岸河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.589024,25.055363,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基4,饒河</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:19<br>開啟時間: 2022/10/20 14:33<br>Descriptio: 松山區八德路四段709巷底<br>field_3: 觀山河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:19</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/20 14:33</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>松山區八德路四段709巷底</value>
+        </Data>
+        <Data name="field_3">
+          <value>觀山河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.576523,25.051476,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基5,觀山</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:13<br><br>開啟時間: 2022/10/17 19:41<br>Descriptio: 松山區塔悠路215號旁巷底<br>field_3: 觀山河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:13
+</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 19:41</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>松山區塔悠路215號旁巷底</value>
+        </Data>
+        <Data name="field_3">
+          <value>觀山河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.569576,25.058946,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基6,塔悠</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:09<br><br>開啟時間: 2022/10/17 19:28<br>Descriptio: 松山區撫遠街389巷底<br>field_3: 觀山河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:09
+</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 19:28</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>松山區撫遠街389巷底</value>
+        </Data>
+        <Data name="field_3">
+          <value>觀山河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.568197,25.065292,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基7,迎風</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:30<br>開啟時間: 2022/10/17 08:59<br>Descriptio: 中山區濱江街362號對面中山高速公路下方<br>field_3: 迎風河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:30</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 08:59</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>中山區濱江街362號對面中山高速公路下方</value>
+        </Data>
+        <Data name="field_3">
+          <value>迎風河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.552389,25.073329,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基8,濱江</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:19<br>開啟時間: 2022/10/17 09:16<br>Descriptio: 中山區濱江街199巷底<br>field_3: 大佳河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:19</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 09:16</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>中山區濱江街199巷底</value>
+        </Data>
+        <Data name="field_3">
+          <value>大佳河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.53993,25.073573,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基10-2,圓山二</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:36<br>開啟時間: 2022/10/17 09:26<br>Descriptio: 中山區兒童育樂中心大門左側<br>field_3: -]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:36</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 09:26</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>中山區兒童育樂中心大門左側</value>
+        </Data>
+        <Data name="field_3">
+          <value>-</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.522102,25.074718,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基12,長壽</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:39<br>開啟時間: 2022/10/20 11:35<br>Descriptio: 內湖區安康路32巷底<br>field_3: 成美右岸河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:39</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/20 11:35</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>內湖區安康路32巷底</value>
+        </Data>
+        <Data name="field_3">
+          <value>成美右岸河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.594906,25.060921,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基13,成美</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:41<br>開啟時間: 2022/10/20 11:40<br>Descriptio: 內湖區新明路219巷底<br>field_3: 成美右岸河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:41</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/20 11:40</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>內湖區新明路219巷底</value>
+        </Data>
+        <Data name="field_3">
+          <value>成美右岸河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.588181,25.057369,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基16,美堤</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:23<br>開啟時間: 2022/10/18 14:03<br>Descriptio: 大直樂群一路、敬業三路底<br>field_3: 美堤河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:23</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/18 14:03</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>大直樂群一路、敬業三路底</value>
+        </Data>
+        <Data name="field_3">
+          <value>美堤河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.556472,25.077041,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>內1,康樂</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:19<br>開啟時間: 2022/10/17 16:10<br>Descriptio: 內溝溪右岸中山高速公路下方<br>field_3: 疏散門]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:19</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 16:10</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>內溝溪右岸中山高速公路下方</value>
+        </Data>
+        <Data name="field_3">
+          <value>疏散門</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.617836,25.06599,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>淡4,玉泉</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 11:36<br>開啟時間: 2022/10/19 15:24<br>Descriptio: 大同區南京西路底<br>field_3: 延平河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 11:36</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/19 15:24</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>大同區南京西路底</value>
+        </Data>
+        <Data name="field_3">
+          <value>延平河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.5072389,25.0535587,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>淡6,敦煌</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 11:21<br>開啟時間: 2022/10/19 13:08<br>Descriptio: 大同區敦煌路底<br>field_3: 延平河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 11:21</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/19 13:08</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>大同區敦煌路底</value>
+        </Data>
+        <Data name="field_3">
+          <value>延平河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.508423,25.076564,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基9,大佳</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:56<br>開啟時間: 2022/10/17 08:50<br>Descriptio: 中山區濱江街107號(大佳國小旁)<br>field_3: 大佳河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:56</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 08:50</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>中山區濱江街107號(大佳國小旁)</value>
+        </Data>
+        <Data name="field_3">
+          <value>大佳河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.537637,25.073388,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基10-1,圓山一</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:36<br>開啟時間: 2022/10/17 09:23<br>Descriptio: 中山區兒童育樂中心大門右側<br>field_3: -]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:36</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 09:23</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>中山區兒童育樂中心大門右側</value>
+        </Data>
+        <Data name="field_3">
+          <value>-</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.521943,25.074851,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基11-1,五分</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:38<br>開啟時間: 2022/10/20 11:32<br>Descriptio: 內湖區吉林街邊中山高速公路下方<br>field_3: 南湖右岸河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:38</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/20 11:32</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>內湖區吉林街邊中山高速公路下方</value>
+        </Data>
+        <Data name="field_3">
+          <value>南湖右岸河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.613839,25.065328,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基11,南湖</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:29<br>開啟時間: 2022/10/17 16:00<br>Descriptio: 內湖區康寧路三段、吉林街交叉口<br>field_3: 南湖右岸河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:29</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 16:00</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>內湖區康寧路三段、吉林街交叉口</value>
+        </Data>
+        <Data name="field_3">
+          <value>南湖右岸河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.611616,25.06429,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>內2,內溝</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:11<br>開啟時間: 2022/10/17 16:05<br>Descriptio: 內溝溪左岸中山高速公路南側堤外便道(吉林汽車旅館旁)<br>field_3: -]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:11</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 16:05</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>內溝溪左岸中山高速公路南側堤外便道(吉林汽車旅館旁)</value>
+        </Data>
+        <Data name="field_3">
+          <value>-</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.618124,25.065853,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>基10林安泰</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:40<br>開啟時間: 2022/10/17 10:00<br>Descriptio: 台北市中山區濱江街<br>field_3: 大佳河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:40</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 10:00</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>台北市中山區濱江街</value>
+        </Data>
+        <Data name="field_3">
+          <value>大佳河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.529789,25.073138,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>景2,溪洲</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 15:30<br>開啟時間: 2022/10/19 15:03<br>Descriptio: 羅斯福路6段142巷與汀洲路4段交叉口<br>field_3: 溪洲河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 15:30</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/19 15:03</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>羅斯福路6段142巷與汀洲路4段交叉口</value>
+        </Data>
+        <Data name="field_3">
+          <value>溪洲河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.5351694,24.9983974,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>淡1,桂林</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 11:18<br>開啟時間: 2022/10/17 14:40<br>Descriptio: 萬華區桂林路底<br>field_3: 龍山河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 11:18</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 14:40</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>萬華區桂林路底</value>
+        </Data>
+        <Data name="field_3">
+          <value>龍山河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.495842,25.039023,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>新3-1,華中二</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:18<br>開啟時間: 2022/10/17 09:10<br>Descriptio: 萬華區華中橋橋下<br>field_3: 華中河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:18</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 09:10</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>萬華區華中橋橋下</value>
+        </Data>
+        <Data name="field_3">
+          <value>華中河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.495304,25.016365,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>景3,萬芳</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 17:09<br>開啟時間: 2022/10/19 15:14<br>Descriptio: 文山區木柵路四段 (木柵高工斜對面)<br>field_3: 道南右岸河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 17:09</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/19 15:14</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>文山區木柵路四段 (木柵高工斜對面)</value>
+        </Data>
+        <Data name="field_3">
+          <value>道南右岸河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.571818,24.994765,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>新2,果菜市場</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 16:07<br>開啟時間: 2022/10/17 09:20<br>Descriptio: 萬華區果菜市場堤防邊<br>field_3: 華中河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 16:07</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 09:20</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>萬華區果菜市場堤防邊</value>
+        </Data>
+        <Data name="field_3">
+          <value>華中河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.499363,25.016713,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>新3-2,華翠</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 11:01<br>開啟時間: 2022/10/17 09:35<br>Descriptio: 萬華區華翠大橋旁<br>field_3: 華中河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 11:01</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/17 09:35</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>萬華區華翠大橋旁</value>
+        </Data>
+        <Data name="field_3">
+          <value>華中河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.488208,25.029238,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>景1,育英</name>
+      <description><![CDATA[說明: 開<br>關閉時間: 2022/10/16 15:24<br>開啟時間: 2022/10/19 15:10<br>Descriptio: 育英街31巷40弄與景美便提路口<br>field_3: 景美河濱公園]]></description>
+      <styleUrl>#icon-1305-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="說明">
+          <value>開</value>
+        </Data>
+        <Data name="關閉時間">
+          <value>2022/10/16 15:24</value>
+        </Data>
+        <Data name="開啟時間">
+          <value>2022/10/19 15:10</value>
+        </Data>
+        <Data name="Descriptio">
+          <value>育英街31巷40弄與景美便提路口</value>
+        </Data>
+        <Data name="field_3">
+          <value>景美河濱公園</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.5368943,24.9893672,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
