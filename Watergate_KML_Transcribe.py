@@ -32,8 +32,8 @@ def Get_Watergate_Status():
         Watergate_Status_Dict = {}
         for k, v in Watergate_Xpath_Dict.items():
             for j in root.findall(v, ns):
-                Watergate_Status_Dict[k] = 0 if (j.text == "關") else 1
-        print(Watergate_Status_Dict)
+                Watergate_Status_Dict[k] = 500 if (j.text == "關") else 200 # close = 500, open = 200
+        # print(Watergate_Status_Dict)
             
     else:
         print("Error : " + str(Requested_KML.status_code))
