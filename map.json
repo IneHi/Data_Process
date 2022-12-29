@@ -1,45 +1,45 @@
 [
     {
         "key" :  "TW",
-        "latitude" : 121.495842,
-        "longitude": 25.039023,
+        "latitude" : 25.039023,
+        "longitude": 121.495842,
         "name": "淡1,桂林"
     },
     {
         "key" :  "TW",
-        "latitude" : 121.593872,
-        "longitude": 25.059046,
+        "latitude" : 25.059046,
+        "longitude": 121.593872,
         "name": "淡2,貴陽"  
     }
     ,
     {
         "key" :  "TW",
-        "latitude" : 121.506488,
-        "longitude": 25.050877,
+        "latitude" : 25.050877,
+        "longitude": 121.506488,
         "name": "淡3,延平"  
     },
     {
         "key" :  "TW",
-        "latitude" : "121.495842",
-        "longitude": 25.039023,
+        "latitude" : 25.0535587,
+        "longitude": 121.5072389, 
         "name": "淡4,玉泉"  
     },
     {
         "key" :  "TW",
-        "latitude" : 121.508098,
-        "longitude": 25.056843,
+        "latitude" : 25.056843,
+        "longitude": 121.508098,
         "name": "淡5,大稻埕"  
     },
     {
         "key" :  "TW",
-        "latitude" : 121.508423,
-        "longitude": 25.076564,
+        "latitude" : 25.076564,
+        "longitude": 121.508423,
         "name": "淡6,敦煌"  
     },
     {
         "key" :  "TW",
-        "latitude" : 121.509024,
-        "longitude": 25.068878,
+        "latitude" : 25.068878,
+        "longitude": 121.509024,
         "name": "淡5-1,國順"  
     }
 
