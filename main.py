@@ -51,34 +51,47 @@ def __generateData():
     for k in Watergate_Status_Dict:
         Watergate_Status_Dict[k] = 200 if (random.randint(0, 1)) else 500
     print(Watergate_Status_Dict)
-    deviceId = Watergate_deviceID #需對應剛剛取名的Device
-    tagName = 'Watergate1' #需對應剛剛取名的Tag
+    deviceId = Watergate_deviceID 
+    tagName = 'Watergate1' 
     tag = EdgeTag(deviceId, tagName, Watergate_Status_Dict.get("淡1,桂林"))
     edgeData.tagList.append(tag)
-    tagName = 'Watergate2' #需對應剛剛取名的Tag
-    tag = EdgeTag(deviceId, tagName, 800 if (Watergate_Status_Dict.get("淡2,貴陽")) == 200 else 500)
+    tagName = 'Watergate1_dash' 
+    tag = EdgeTag(deviceId, tagName, 1 if(Watergate_Status_Dict.get("淡1,桂林")) == 200 else 0)
     edgeData.tagList.append(tag)
-    # tagName = 'Watergate3' #需對應剛剛取名的Tag
+    tagName = 'Watergate2' 
+    tag = EdgeTag(deviceId, tagName, 800 if (Watergate_Status_Dict.get("淡2,貴陽") == 200) else 500)
+    edgeData.tagList.append(tag)
+    tagName = 'Watergate2_dash' 
+    tag = EdgeTag(deviceId, tagName, 1 if (Watergate_Status_Dict.get("淡2,貴陽") == 200) else 0)
+    edgeData.tagList.append(tag)
+    # tagName = 'Watergate3' 
     # tag = EdgeTag(deviceId, tagName, Watergate_Status_Dict.get("淡3,延平"))
     # edgeData.tagList.append(tag)
-    # tagName = 'Watergate4' #需對應剛剛取名的Tag
+    # tagName = 'Watergate4' 
     # tag = EdgeTag(deviceId, tagName, Watergate_Status_Dict.get("淡4,玉泉"))
     # edgeData.tagList.append(tag)
-    # tagName = 'Watergate5' #需對應剛剛取名的Tag
+    # tagName = 'Watergate5' 
     # tag = EdgeTag(deviceId, tagName, Watergate_Status_Dict.get("淡5,大稻埕"))
     # edgeData.tagList.append(tag)
-    # tagName = 'Watergate6' #需對應剛剛取名的Tag
+    # tagName = 'Watergate6'    
     # tag = EdgeTag(deviceId, tagName, Watergate_Status_Dict.get("淡5-1,國順"))
     # edgeData.tagList.append(tag)
-    # tagName = 'Watergate7' #需對應剛剛取名的Tag
+    # tagName = 'Watergate7'    
     # tag = EdgeTag(deviceId, tagName, Watergate_Status_Dict.get("淡6,敦煌"))
+    # edgeData.tagList.append(tag)
+    tagName = "waterLevel_below15"
+    randvalue = 1.5 + random.uniform(-0.1, 0.1)
+    tag = EdgeTag(deviceId, tagName, randvalue)
     edgeData.tagList.append(tag)
     tagName = 'waterLevel1'
-    randvalue = random.randint(0, 150)
-    tag =  EdgeTag(deviceId, tagName, randvalue)
+    tag =  EdgeTag(deviceId, tagName, randvalue * 50)
     edgeData.tagList.append(tag)
     tagName = 'waterLevel2'
-    tag =  EdgeTag(deviceId, tagName, randvalue if next((x for x in edgeData.tagList if (x.value == 200) or x.value == 800), False)else 0)
+    tag =  EdgeTag(deviceId, tagName, randvalue* 50 if next((x for x in edgeData.tagList if (x.value == 200) or x.value == 800), False)else 0)
+    edgeData.tagList.append(tag)
+    tagName = "Line"
+    randvalue = 0
+    tag = EdgeTag(deviceId, tagName, randvalue)
     edgeData.tagList.append(tag)
     edgeData.timestamp = datetime.datetime.now()
     return edgeData
@@ -111,6 +124,5 @@ if __name__ == '__main__':
     # _edgeAgent.uploadConfig(action = constant.ActionType['Create'], edgeConfig = __generateConfig())
     while True:
         __sendData()
-        time.sleep(5)
+        time.sleep(30)
     _edgeAgent.disconnect()
-    _edgeAgent1.disconnect()
